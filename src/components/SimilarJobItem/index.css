@@ -1,0 +1,134 @@
+.similar-job-item-container {
+  background-color: #272727;
+  list-style-type: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item-container {
+    width: 35%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+  }
+}
+
+.similar-job-company-details-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-company-logo-img {
+  width: 48px;
+  height: 48px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-company-logo-img {
+    width: 56px;
+    height: 56px;
+  }
+}
+.similar-job-title-rating-container {
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-title-rating-container {
+    margin-left: 16px;
+  }
+}
+.similar-job-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-title {
+    font-size: 18px;
+  }
+}
+.similar-job-rating-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-rating-img {
+  color: #fbbf24;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.similar-job-rating {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0px;
+}
+.similar-job-location-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.similar-job-location-type-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-details-item-container {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.similar-job-detail-item-img {
+  color: #ffffff;
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-detail-item-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+}
+.similar-job-detail-item-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.similar-job-details-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f1f5f9;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-details-heading {
+    font-size: 24px;
+  }
+}
+
+.similar-job-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f1f5f9;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-description {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
